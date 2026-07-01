@@ -1,4 +1,3 @@
-import logoAsset from "@/assets/omkar-logo.png.asset.json";
 import { BRAND } from "@/lib/site-content";
 import { Instagram, Facebook, Youtube, Linkedin, Mail, Phone, MapPin, MessageCircle } from "lucide-react";
 
@@ -27,7 +26,7 @@ export function SiteFooter() {
           <div>
             <div className="flex items-center gap-3">
               <span className="grid h-16 w-16 place-items-center rounded-2xl bg-white p-1.5 ring-1 ring-white/20">
-                <img src={logoAsset.url} alt="Omkar Landscape" className="h-full w-full object-contain" />
+                <img src="/apple-touch-icon.png" alt="Omkar Landscape" className="h-full w-full object-contain" />
               </span>
               <div>
                 <p className="font-display text-2xl tracking-tight">Omkar Landscape</p>
@@ -64,7 +63,6 @@ export function SiteFooter() {
               {[
                 { href: "#about", label: "About" },
                 { href: "#services", label: "Services" },
-                { href: "#nursery", label: "Our Plant Source" },
                 { href: "#portfolio", label: "Portfolio" },
                 { href: "#gallery", label: "Gallery" },
                 { href: "#contact", label: "Contact" },
