@@ -63,6 +63,7 @@ export function SiteFooter() {
               {[
                 { href: "#about", label: "About" },
                 { href: "#services", label: "Services" },
+                { href: "#nursery", label: "Our Plant Source" },
                 { href: "#portfolio", label: "Portfolio" },
                 { href: "#gallery", label: "Gallery" },
                 { href: "#contact", label: "Contact" },

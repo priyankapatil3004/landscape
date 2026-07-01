@@ -1,7 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import logoAsset from "@/assets/omkar-logo.png.asset.json";
 import { cn } from "@/lib/utils";
 
 const NAV = [
@@ -51,7 +50,7 @@ export function SiteHeader() {
           aria-label="Omkar Landscape — Home"
         >
           <img
-            src={logoAsset.url}
+            src="/apple-touch-icon.png"
             alt="Omkar Landscape"
             className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105 md:h-16"
           />
