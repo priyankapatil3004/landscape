@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# LLM crawlers
+User-agent: GPTBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
